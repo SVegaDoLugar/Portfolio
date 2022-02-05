@@ -1,0 +1,19 @@
+@use '../global.scss';
+.mainExperience{
+    width: 100vw;
+    height: 80vh;
+    padding: 0.75rem;
+    background-color: var(--mainBackgroundColor);
+}
+.tittleExperience{
+    font-size: 2rem;
+}
+.periodExperience{
+    font-size: 2rem;
+    font-style: italic;
+    margin-left: 1.6rem;
+}
+.paragraphExperience{
+    font-size: 1.6rem;
+    margin-left: 1.6rem;
+}

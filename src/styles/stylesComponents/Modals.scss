@@ -1,0 +1,84 @@
+@use '../global.scss';
+
+.modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 1;
+    transition: opacity .6s;
+}
+
+.modalContainer{
+    width: 90vw;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 0.75rem;
+    border: solid 0.25rem var(--backgroundColor);
+    padding: 1.5rem 1.5rem;
+    display: grid;
+    gap: 1rem;
+    place-items: center;
+    grid-auto-columns: 100%;
+}
+.modalImg{
+    max-height:  10vh;
+}
+.imgBorder{
+    border-radius: 0.5rem;
+}
+.modalContainer p{
+    font-size: 1.6rem;
+}
+.modalTitle{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.imgReact img{
+    animation: App-logo-spin infinite 25s linear;
+}
+.buttonReact{
+    font-size: 1.4rem;
+    margin: 1rem 2rem;
+}
+.buttonReactLight{
+    background-color: rgb(0,216,255);
+    color: black;
+    justify-content: center;
+    text-align: center;
+    border: solid 0.25rem black;
+    border-radius: 0.75rem;
+    padding: 0.25rem;
+}
+.buttonReactDark{
+    background-color: black;
+    color: rgb(0,216,255);
+    justify-content: center;
+    text-align: center;
+    border: solid 0.25rem rgb(0,216,255);
+    border-radius: 0.75rem;
+    padding: 0.25rem;
+}
+@media only screen and (min-width: 600px){
+    .modalImg{
+        max-height: 17.5vh;
+    }
+    
+}
+@media only screen and (min-width: 800px){
+    /*VENTANAS MODALES*/
+    .modalContainer p{
+        font-size: 2.25rem;
+    }
+    .modalTitle{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    .modalImg{
+        max-height: 20vh;
+    }
+}

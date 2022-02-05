@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: inline-block;
+}
+
+:root{
+    --fontColorBlack: Black;
+    --fontColowWhite: White;
+    --backgroundColor: rgb(0, 30, 114);
+    --backgroundColorBlueDark: rgb(0, 8, 31);
+    --documentBackground: white;
+    --mainBackgroundColor: rgb(208, 220, 255);
+
+    @keyframes App-logo-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+}

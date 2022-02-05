@@ -1,0 +1,141 @@
+@import '../global.scss';
+.skillsMainSection{
+    background-color: var(--mainBackgroundColor);
+}
+.skillsMainHeader{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(0, 30, 114, 0.75);
+}
+.skillsMainHeader h1{
+    color: white;
+    font-size: 1.6rem;
+}
+.skillsMainGrid{
+    display: grid;
+    width: 100vw;
+    height: 70vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background: none;
+}
+.gridSection{
+    background: none;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.gridSection picture img{
+    max-height: 10.5vh;
+}
+
+.skillsMainFooter{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(0, 30, 114, 0.75);
+}
+.skillsMainFooter p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 600px){
+    .skillsMainSection{
+        background-color: rgb(208, 220, 255);
+    }
+    .skillsMainHeader{
+        width: 100vw;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:rgba(0, 30, 114, 0.75);
+    }
+    .skillsMainHeader h1{
+        color: white;
+        font-size: 1.6rem;
+    }
+    .skillsMainGrid{
+        display: grid;
+        width: 100vw;
+        height: 70vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        background: none;
+    }
+    .gridSection{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gridSection picture img{
+        max-height: 12.25vw;
+    }
+
+    .skillsMainFooter{
+        width: 100vw;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:rgba(0, 30, 114, 0.75);
+    }
+    .skillsMainFooter p{
+        color: white;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width: 800px){
+    .skillsMainSection{
+        background-color: rgb(208, 220, 255);
+    }
+    .skillsMainHeader{
+        width: 100vw;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:rgba(0, 30, 114, 0.75);
+    }
+    .skillsMainHeader h1{
+        color: white;
+        font-size: 1.6rem;
+    }
+    .skillsMainGrid{
+        display: grid;
+        width: 100vw;
+        height: 70vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background: none;
+    }
+    .gridSection{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gridSection picture img{
+        max-height: 8.25vw;
+    }
+
+    .skillsMainFooter{
+        width: 100vw;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:rgba(0, 30, 114, 0.75);
+    }
+    .skillsMainFooter p{
+        color: white;
+        font-size: 1.5rem;
+    }
+}
